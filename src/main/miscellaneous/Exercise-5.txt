@@ -1,0 +1,18 @@
+1) Map Vs FlatMap
+2) Mappartition
+3) D/W combinebykey and aggregagebykey
+4) D/B reduce and reducebykey
+5) Why Bucketing in Hive? How it works
+6) Where kafka partition stores it's data and how it is is stored in different nodes? Is it possible to to have multiple partition on single node?
+7) Write your own exception in java?
+8) How to do word-count without reducebykey?
+9) D/B ORC and parquet
+10) Remove duplicates
+11) Unique and distinct in SQL
+12) Get second highest salary
+13) Kafka Producer acknowledgement
+14) Example of checked and unchecked exception
+15) D/B Spark cache and persist
+16) How to store log directly into disk not in memory in spark?
+17) read from different sensors----> redirect to specific partition in kafka and read from same using kafka
+18) producer and consumer in kafka

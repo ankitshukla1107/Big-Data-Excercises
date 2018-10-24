@@ -1,0 +1,27 @@
+1) You have two files in hdfs one having date range with two columns start date and end date and another having two column with date and visitors field. You have to write a spark code which gives date range having maximum no. of visitors using that two files.
+
+2) Given a student schema with fields (name, subject, marks). Assume there are only 3 subjects physics, chemistry and maths.
+Find the class topper
+
+3) Given a cricket data-set
+a) What is India’s total Win/Loss/Tie percentage?
+b) What is India’s Win/Loss/Tie percentage in away and home matches?
+c) How many matches has India played against different ICC teams?
+d) How many matches India has won or lost against different teams?
+e) Which are the home and away grounds where India has played most number of matches?
+f) What has been the average Indian win or loss by Runs per year?
+
+3) D/W Coalesce() and repartition()
+
+4) Emp, Dept, Salary tables find top 3 salary in relevance to Dept
+
+5) Question on broadcasting 
+
+6) Different storage level of persist 
+
+7) If we have 3 tables of 100 MB, 1GB, 10GB. What would be the best approach to join table and using size information. 
+
+8) Performance tuning techniques in spark 
+
+9) Window function in hive 
+

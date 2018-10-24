@@ -1,0 +1,19 @@
+1) What happen when we call collect() method in spark?
+2) What is lineage graph and What happen when failures occur at some point in lineage graph?
+3) What is Yarn, How to you use spark with Yarn?
+4) Suppose your spark application requires more memory than available in Yarn, then what happen in that case?
+5) Explain resource management part of Yarn?
+6) Spark Kafka integration Q
+	a) Why Direct API is preferred over receiver based approach for integrating Spark with Kafka?
+	b) How partitioning plays role in integrating spark with kafka?
+7) How offset management is done in Kafka?
+8) How leader is elected in kafka?
+9) What role Zookeeper plays in kafka, and what happen when zookeeper goes down?
+10) What can be stored in Zookeeper?
+11) NOSQL DB Q's:
+	a) What is CAP theorem
+	b) What things should be consider in mind while choosing specific NOSQL DB
+	c) Why there is requirement of NOSQL DB
+12) Suppose you have two RDD's one is of 1GB size and other is of 128MB size, how would you join them with minimum shuffling?
+13) Difference between reduceByKey and groupByKey
+14) How can we reduce shuffling in RDD operations?

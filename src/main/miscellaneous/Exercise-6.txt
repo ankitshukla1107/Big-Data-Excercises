@@ -1,0 +1,12 @@
+Write a function that that will insert data type of double into a file and ensure that elements have evenly distributed the values. 
+The function should take two arguments: N (Number of elements) and the full name of the file (ie fully qualified path).
+ 
+1. Create a file with 50,000 elements of data type double using the function you have created as stated earlier.
+ 
+2. Read the file created earlier, read into RDD and compute the average and convert the double into Integer find the sum of Integer. (use scala with spark without using data frame and dataset) 
+ 
+3. Rewrite the program for Question no 2 by using Dataframe and Dataset.
+ 
+4. Using a DataFrame create a random sample of about 100 elements from the file created.
+
+ 

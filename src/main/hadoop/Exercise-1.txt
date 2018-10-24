@@ -1,0 +1,8 @@
+1) How does replication factor work in HDFS?
+
+2) Write a map-reduce program to check whether a string is Angram or Not?
+
+3) Write a custom partitioner in java/python. Explain the reason for custom partitioning.
+
+4) Calculate the number of nodes required for storing 500 Tb data in hadoop cluster(Assume each node config is 8 tb hdd ) Explain your answer/formula at each point.
+ 

@@ -1,0 +1,43 @@
+1) Assume a table have storeID and SalesAmount Column. and data is coming each Day. Design Efficient Table Structure in Hive.
+
+Solve problems 2 to 6 using both hive and spark-
+
+2) A table have rollNumber, Subject and Marks. Each Student appeared for 6 Subjects. Find Max 4 marks and subject for Each Student. If a student have same marks in all subject then also only 4 subject should come in result.
+
+3) A table have rollNumber and totalMarks. find 5th highest marks.
+
+4) A dataframe have 4 column c1, c2, c3 and c4.
+replace the data as below:
+Column : ifValue : toValue
+C1 		: X		 : i 
+C2		: Y		 : j
+C3      : Z		 : k
+
+5) Implement above without when function.
+
+6) A Table have flghtID, CustomerID, flightDate. get most popular day when customer prefer to fly. Complete this without using predefined function.
+
+7) Use of partitioning in hive tables 
+
+8) If we drop partition from physical path, what would be the impact on table. 
+
+9) Scenario based question on data 
+	ID 		Code 
+	
+	1 		400 
+	
+	2 		500 
+	
+	3 		700 
+	
+	4 		500 
+	
+	1 		800 
+	
+	2 		500 
+
+a) Provide code from table which came only one time in the table 
+
+b) Provide id which are having unique code 
+
+c) Do it in hive query and then in spark 

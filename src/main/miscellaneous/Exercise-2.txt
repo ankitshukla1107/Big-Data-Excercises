@@ -1,0 +1,31 @@
+1) Write a spark program to List top five IP address in terms of number of hits?
+
+192.168.11.100 - - [01/Jun/2016:00:17:09 +1200] "GET /internet/index.html HTTP/1.1" 200 6792 "http://www.xyz.com/video/streaming/http.html" "Mozilla/5.0 (X11; U; Linux i686; es-ES; rv:1.6) Gecko/20160413 Debian/1.6-5"
+192.168.11.100 - - [01/Jun/2016:00:17:20 +1200] "GET /cgi-bin/forum/commentary.pl/noframes/read/209 HTTP/1.1" 200 6863 "http://search.virgilio.it/search/cgi/search.cgi?qs=download+video+illegal+Berg&lr=&dom=s&offset=0&hits=10&switch=0&f=us" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Hotbar 4.4.7.0)"
+192.168.11.100 - - [01/Jun/2016:00:17:21 +1200] "GET /js/common.js HTTP/1.1" 200 2263 "http://www.xyz.com/cgi-bin/forum/commentary.pl/noframes/read/209" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Hotbar 4.4.7.0)"
+192.168.11.101 - - [01/Jun/2016:00:17:21 +1200] "GET /css/common.css HTTP/1.1" 200 6123 "http://www.xyz.com/cgi-bin/forum/commentary.pl/noframes/read/209" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Hotbar 4.4.7.0)"
+192.168.11.102 - - [01/Jun/2016:00:17:21 +1200] "GET /images/navigation/home1.gif HTTP/1.1" 200 2735 "http://www.xyz.com/cgi-bin/forum/commentary.pl/noframes/read/209" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Hotbar 4.4.7.0)"
+192.168.11.103 - - [01/Jun/2016:00:17:21 +1200] "GET /data/zookeeper/ico-100.gif HTTP/1.1" 200 196 "http://www.xyz.com/cgi-bin/forum/commentary.pl/noframes/read/209" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Hotbar 4.4.7.0)"
+192.168.11.101 - - [01/Jun/2016:00:17:22 +1200] "GET /adsense-alternate.html HTTP/1.1" 200 887 "http://www.xyz.com/cgi-bin/forum/commentary.pl/noframes/read/209" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Hotbar 4.4.7.0)"
+192.168.11.102 - - [01/Jun/2016:00:17:39 +1200] "GET /data/zookeeper/status.html HTTP/1.1" 200 4195 "http://www.xyz.com/cgi-bin/forum/commentary.pl/noframes/read/209" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Hotbar 4.4.7.0)"
+
+
+2) You have two data sets:
+customer information(customer_id, email_id, language, location)
+purchase information (transaction_id, product_id, customer_id, sell_price, item_description)
+
+You have to store these data sets in Parquet format and need to write Spark/Spark SQL job to perform below analytics
+
+a) Find locations in which sale of each product is max
+b) Find customer who has purchased max number of items
+c) Find customer who has spent max money
+d) Find product which has min sale in terms of money
+e) Find product which has min sale in terms of number of unit sold
+
+3) Assume you have a stream of logs coming into spark streaming job from kafka/kinesis. These are http logs with IP address HTTP Status and URL
+-- WAP to compute running sum by following i.e sum so far.
+	a) Count of 404 by IP address	
+	b) Count of logs by multiple HTTP return code
+-- Count of logs by HTTP return code and URL
+
+

@@ -1,0 +1,11 @@
+1) Design and code below feature which should be scalable, re-usable, extensible and reliable-
+
+** Data in TB size is stored in HDFS from some source (Assume it is of log data)
+** Read above data from HDFS and perform transformation
+** Save above transformed data into Kafka Topic
+
+-- Main problem to work on above problem is as below:
+
+==> When you are reading data from HDFS using your job, then their may be failure due to any reason, then how will your job ensure that when it will be up again, it will start reading from the same last point where failure happens
+
+** Whether your solution will be batch processing or stream processing based.Give justification

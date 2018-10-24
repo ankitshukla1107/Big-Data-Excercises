@@ -1,0 +1,30 @@
+1) 
+## FILE_1 ####
+#d1: u1 | d2:u2 | d3:u3
+#d4: u4 | d5:u5
+#d6:u6 | d7:u7
+
+#o / p
+#table 1 
+# col1: col2
+# d1: u1
+# d2: u2
+# d3: u3
+# d4: u4
+# d5: u5
+
+
+#o / p
+# table 2
+# col1: col2
+# u1: u1
+# u1: u2
+# u1: u3
+# u4: u4 
+# u5: u5
+# u6: u6
+# u6: u7
+
+Given data in FILE_1, transform it to desired output of table 1 and table 2 
+
+2) Change datatype of a column in an RDD
